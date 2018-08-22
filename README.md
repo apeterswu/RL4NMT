@@ -2,7 +2,7 @@ Reinforcement Learning for Neural Machine Translation
 
 Dataset and models will be relased if needed. 
 
-# RL4NMT (Reinforcement Learning for Neural Machine Translation) based on Transformer
+# Reinforcement Learning for Neural Machine Translation (RL4NMT) based on Transformer
 
 If you use this code about cnn, please cite:
 ```
