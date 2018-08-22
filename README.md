@@ -4,7 +4,7 @@ Dataset and models will be relased if needed.
 
 # Reinforcement Learning for Neural Machine Translation (RL4NMT) based on Transformer
 
-If you use this code, please cite:
+<!-- If you use this code, please cite:
 ```
 @inproceedings{gehring2017convs2s,
   author    = {Lijun, Wu and Fei, Tian and Tao, Qin and Jianhuang, Lai and Tie-Yan, Liu},
@@ -12,7 +12,7 @@ If you use this code, please cite:
   booktitle = {Proc. of EMNLP},
   year      = 2018,
 }
-```
+``` -->
 
 Take WMT17 Chinese-English translation as example: 
 
