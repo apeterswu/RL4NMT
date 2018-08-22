@@ -2,7 +2,17 @@ Reinforcement Learning for Neural Machine Translation
 
 Dataset and models will be relased if needed. 
 
-# rl4nmt (Reinforcement Learning for Neural Machine Translation) based on Transformer
+# RL4NMT (Reinforcement Learning for Neural Machine Translation) based on Transformer
+
+If you use this code about cnn, please cite:
+```
+@inproceedings{gehring2017convs2s,
+  author    = {Lijun, Wu and Fei, Tian and Tao, Qin and Jianhuang, Lai and Tie-Yan, Liu},
+  title     = "{A Study of Reinforcement Learning for Neural Machine Translation}",
+  booktitle = {Proc. of EMNLP},
+  year      = 2018,
+}
+```
 
 Take WMT17 Chinese-English translation as example: 
 
@@ -23,4 +33,4 @@ Different training strategies are provided.
 (4) zhen_tgt_src_mono: sequential mode [source monolingual data RL training based on (bilinugal + target monolingual data) MLE model] <br>
 (5) zhen_bi_src_tgt_mono: unified model
 
-Supports MRT (minimum risk training) for NMT (ongoing). 
+Supports MRT (minimum risk training) for NMT. 
