@@ -1,5 +1,7 @@
 Reinforcement Learning for Neural Machine Translation
 
+EMNLP 2018 paper: A Study of Reinforcement Learning for Neural Machine Translation
+
 Dataset and models will be relased if needed. 
 
 # Reinforcement Learning for Neural Machine Translation (RL4NMT) based on Transformer
