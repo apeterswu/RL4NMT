@@ -172,7 +172,7 @@ def model_fn(model,
         labels = features.get("targets", None) 
         samples.set_shape([None, None, 1, 1]) 
         # haprams.delta_reward = True for delta reward; False for total reward
-        metric_value = train_metric_fn(samples, labels, delat_reward=hparams.delta_reward)
+        metric_value = train_metric_fn(samples, labels, delta_reward=hparams.delta_reward)
         metric_value = tf.stop_gradient(metric_value)  # to be more strict of the gradient
         metric_value.set_shape([None, None, 1, 1])
         """Accodring to the metrics.py: The tf.metrics.mean function assures correct aggregation."""
