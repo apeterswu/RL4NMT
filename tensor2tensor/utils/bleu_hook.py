@@ -270,7 +270,7 @@ def bleu_score(predictions, labels, **unused_kwargs):
   return bleu, tf.constant(1.0)
 
 
-def bleu_score_train(predictions, labels, delat_reward=True, **unused_kwargs):
+def bleu_score_train(predictions, labels, delta_reward=True, **unused_kwargs):
   """BLEU score computation between labels and predictions.
 
   An approximate BLEU scoring method since we do not glue word pieces or
@@ -290,7 +290,7 @@ def bleu_score_train(predictions, labels, delat_reward=True, **unused_kwargs):
   outputs = tf.squeeze(predictions, axis=[-1, -2])   # predictions are data_ids
   labels = tf.squeeze(labels, axis=[-1, -2])
 
-  if delat_reward:
+  if delta_reward:
       bleu = tf.py_func(compute_sentence_bleu, (labels, outputs), tf.float32)  # bleu is delta reward matrix
   else:
       bleu = tf.py_func(compute_sentence_total_bleu, (labels, outputs), tf.float32)  # bleu is delta reward matrix
