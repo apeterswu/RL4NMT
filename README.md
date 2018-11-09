@@ -9,7 +9,7 @@ Dataset and models will be relased if needed.
 Please first get familar with the basic Tensor2Tensor project: https://github.com/tensorflow/tensor2tensor
 
 Please cite:
-
+```
 @inproceedings{wu2018study,
   title={A Study of Reinforcement Learning for Neural Machine Translation},
   author={Wu, Lijun and Tian, Fei and Qin, Tao and Lai, Jianhuang and Liu, Tie-Yan},
@@ -17,6 +17,7 @@ Please cite:
   pages={3612--3621},
   year={2018}
 }
+```
 
 Take WMT17 Chinese-English translation as example: 
 
