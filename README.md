@@ -8,15 +8,15 @@ Dataset and models will be relased if needed.
 
 Please first get familar with the basic Tensor2Tensor project: https://github.com/tensorflow/tensor2tensor
 
-<!-- If you use this code, please cite:
-```
-@inproceedings{gehring2017convs2s,
-  author    = {Lijun, Wu and Fei, Tian and Tao, Qin and Jianhuang, Lai and Tie-Yan, Liu},
-  title     = "{A Study of Reinforcement Learning for Neural Machine Translation}",
-  booktitle = {Proc. of EMNLP},
-  year      = 2018,
+Please cite:
+
+@inproceedings{wu2018study,
+  title={A Study of Reinforcement Learning for Neural Machine Translation},
+  author={Wu, Lijun and Tian, Fei and Qin, Tao and Lai, Jianhuang and Liu, Tie-Yan},
+  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  pages={3612--3621},
+  year={2018}
 }
-``` -->
 
 Take WMT17 Chinese-English translation as example: 
 
