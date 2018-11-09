@@ -6,6 +6,8 @@ Dataset and models will be relased if needed.
 
 # Reinforcement Learning for Neural Machine Translation (RL4NMT) based on Transformer
 
+Please first get familar with the basic Tensor2Tensor project: https://github.com/tensorflow/tensor2tensor
+
 <!-- If you use this code, please cite:
 ```
 @inproceedings{gehring2017convs2s,
