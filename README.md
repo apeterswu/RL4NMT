@@ -10,6 +10,7 @@ Please first get familar with the basic Tensor2Tensor project: https://github.co
 
 The tesorflow version is 1.4, and the tensor2tensor version is 1.2.9. 
 
+***Currently work on fairseq, may update the rl4nmt in fairseq codebase. 
 Please cite:
 ```
 @inproceedings{wu2018study,
