@@ -223,7 +223,7 @@ def compute_sentence_bleu(reference_batch, translation_batch, max_order=4):
             else:
                 delta_results[index, i] = 0.
         # print(results[index])  # debug
-    delta_results = delta_results[::-1].cumsum(axis=1)[::-1]
+    delta_results = delta_results[:,::-1].cumsum(axis=1)[:,::-1]
     return delta_results   # results are delta rewards
 
 
