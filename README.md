@@ -11,7 +11,6 @@ EMNLP 2018: A Study of Reinforcement Learning for Neural Machine Translation
 ```
 Dataset and models will be relased if needed. 
 # RL4NMT based on Transformer
-
 Please first get familar with the basic Tensor2Tensor project: https://github.com/tensorflow/tensor2tensor.
 
 The tesorflow version is 1.4, and the tensor2tensor version is 1.2.9. 
