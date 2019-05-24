@@ -1,6 +1,5 @@
 # Reinforcement Learning for Neural Machine Translation (RL4NMT)
-
-EMNLP 2018 paper: A Study of Reinforcement Learning for Neural Machine Translation
+EMNLP 2018: A Study of Reinforcement Learning for Neural Machine Translation
 ```
 @inproceedings{wu2018study,
   title={A Study of Reinforcement Learning for Neural Machine Translation},
