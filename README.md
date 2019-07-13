@@ -36,7 +36,7 @@ Different training strategies are provided.
 
 Supports MRT (minimum risk training) for NMT. 
 
-# Highlight several important implementations in the code.
-* This file contains the model builder, [do sampling and feed the sampled translations for training] (https://github.com/apeterswu/RL4NMT/blob/master/tensor2tensor/utils/model_builder.py#L132).
-* This file contains the loss function building for [RL and regular MLE] (https://github.com/apeterswu/RL4NMT/blob/master/tensor2tensor/utils/t2t_model.py#L595).
-* This file includes the detailed bleu [reward calculation] (https://github.com/apeterswu/RL4NMT/blob/master/tensor2tensor/utils/bleu_hook.py#L59).
+# Several important implementations in the code.
+* This file contains the model builder, [do sampling and feed the sampled translations for training](https://github.com/apeterswu/RL4NMT/blob/master/tensor2tensor/utils/model_builder.py#L132).
+* This file contains the loss function building for [RL and regular MLE](https://github.com/apeterswu/RL4NMT/blob/master/tensor2tensor/utils/t2t_model.py#L595).
+* This file includes the detailed bleu [reward calculation](https://github.com/apeterswu/RL4NMT/blob/master/tensor2tensor/utils/bleu_hook.py#L59).
