@@ -122,7 +122,26 @@ class PTBProblem(problem.Text2TextProblem):
             ptb_files += [m.name]
           files += [m]
 
-      tgz.extractall(tmp_dir, members=files)
+      def is_within_directory(directory, target):
+          
+          abs_directory = os.path.abspath(directory)
+          abs_target = os.path.abspath(target)
+      
+          prefix = os.path.commonprefix([abs_directory, abs_target])
+          
+          return prefix == abs_directory
+      
+      def safe_extract(tar, path=".", members=None, *, numeric_owner=False):
+      
+          for member in tar.getmembers():
+              member_path = os.path.join(path, member.name)
+              if not is_within_directory(path, member_path):
+                  raise Exception("Attempted Path Traversal in Tar File")
+      
+          tar.extractall(path, members, numeric_owner=numeric_owner) 
+          
+      
+      safe_extract(tgz, tmp_dir, members=files)
 
     if self.is_character_level:
       files = ptb_char_files
